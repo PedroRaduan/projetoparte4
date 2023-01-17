@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grupo</title>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+    <link rel="stylesheet" href="conversa3.css">
+</head>
+<body>
+    <button class="voltar" onclick="voltar();">Voltar</button>
+    <div>
+    <center>
+		<h1 class="header">Kwitter</h1>
+		<div style="text-align: left;margin-bottom: 70px;"> </div>
+	</center>
+</div>
+
+<center>
+	<div class="inputDivMessagePage">
+		<label>Enviar:</label>
+        <br>
+		<input type="text" id="msg" class="form-control" placeholder="Mensagem">
+		<br>
+        <br>
+        <button onclick="send();" class="ola">Enviar</button>
+	</div>
+</center>
+<script src="conversa3.js"></script>
+</body>
+</html>

@@ -1,0 +1,66 @@
+body, html{
+
+    background: linear-gradient(72deg, #4280E1 1%, #3DECB1 72%);
+    text-align: center;
+}
+
+#cabecalho{
+    display: flex;
+}
+
+#conteudo{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 10%;
+    font-size: 2rem;
+}
+
+#cabecalho{
+    display: flex;
+}
+
+#sair{
+    width: 5rem;
+    height: 2rem;
+    border-radius: 5px;
+    text-decoration: none;
+    border-style: none;
+    font-size: 15px;
+    margin-left: 45rem;
+    cursor: pointer;
+}
+
+#nome_sala{
+    width: 100%;
+    height: 2rem;
+    border-style: none;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 15px;
+}
+
+#criar{
+    width: 7rem;
+    border-radius: 5px;
+    border-style: none;
+    font-size: 15px;
+    padding: 5px;
+    height: 2.5rem;
+    background-color:cadetblue;
+    cursor: pointer;
+}
+#output{
+    padding: 10px; 
+    width:100%;
+    background: rgba(255,255,255,0.8);
+    border-radius: 15px;
+    height: 10%;
+    cursor: pointer;
+}
+
+#nome_usuario{
+    color: white;
+    margin-left: 45%;
+    font-size: 1.5rem;
+}
